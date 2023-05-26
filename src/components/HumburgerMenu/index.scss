@@ -1,0 +1,105 @@
+@import "../../styles/config/color";
+@import "../../styles/layout/button";
+@import "../../styles/layout/responsive";
+
+.humberger__login__profile {
+  background: $theme_color_1;
+  height: 95px;
+}
+
+.logo_img {
+  margin: 18px 0px 18px 18px;
+}
+
+.ham-nav-container div {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding-left: 15px;
+  color: black;
+  line-height: 40px;
+  font-size: 12px;
+  display: block;
+  margin: 0;
+  transition: all 1s ease;
+}
+
+.ham-nav-container .ham-category-heading {
+  color: rgba(0, 0, 0, .3);
+  font-size: 14px;
+}
+
+.contact-a {
+  color: #0909094d;
+}
+
+.ham-nav-category-2 {
+  background-color: #f3f3f3;
+}
+
+.category-topbar .col-lg-2 div {
+  padding: 5px;
+  border-radius: 50%;
+  height: 38px;
+  width: 38px;
+  margin: auto;
+  margin-bottom: 9px;
+}
+
+.category-text {
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.owl-prev {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-items: center;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  top: calc(50% - 52px);
+  width: 47px;
+  height: 104px;
+  text-align: center;
+  opacity: .5;
+  background-color: hsla(0, 0%, 100%, .98);
+  box-shadow: 4 1px 5px 0 rgb(0 0 0 / 11%);
+  transition: opacity .1s ease-in;
+  left: 0;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.owl-next {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-items: center;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  top: calc(50% - 52px);
+  width: 47px;
+  height: 104px;
+  text-align: center;
+  opacity: .5;
+  background-color: hsla(0, 0%, 100%, .98);
+  box-shadow: 4 1px 5px 0 rgb(0 0 0 / 11%);
+  transition: opacity .1s ease-in;
+  right: 0;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}

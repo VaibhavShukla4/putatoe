@@ -1,0 +1,43 @@
+.category-banner-grid {
+  margin: 10px 0px;
+}
+
+.category-banner-grid {
+  text-align: center;
+  border-radius: 2px;
+  box-shadow: 2px 2px 4px 0 rgb(0 0 0 / 8%);
+}
+
+.category-banner-grid img {
+  width: 100%;
+}
+
+.carousel {
+  position: relative
+}
+
+.carousel-wrap {
+  margin: 90px auto;
+  padding: 0 5%;
+  width: 80%;
+  position: relative;
+}
+
+.carousel-item {
+
+  display: block !important;
+
+}
+
+.mob {
+  display: none;
+}
+
+.imageStyle {
+  width: 100%;
+  object-fit: contain;
+}
+
+.react-carousel-responsive__root {
+  z-index: auto !important;
+}

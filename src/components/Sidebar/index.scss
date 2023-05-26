@@ -1,0 +1,61 @@
+@import "../../styles/config/color";
+@import "../../styles/layout/button";
+@import "../../styles/layout/responsive";
+
+.sideBarResponsive {
+  background-color: $theme_color_1;
+  transition: width 0.4s;
+  position: fixed;
+  z-index: 999;
+}
+
+.arrowSidebar {
+  position: absolute;
+  top: 5px;
+  right: -17px;
+  background-color: rgb(255, 255, 255);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+#sidebarArrowRight {
+  transition: transform 1s;
+  transform: rotate(180deg);
+}
+
+#sidebarArrowLeft {
+  transform: rotate(0deg);
+}
+
+.sidebarSmall {
+  width: 5%;
+}
+
+.sidebarLarge {
+  width: 15%;
+}
+
+.putatoe-sidebar-services-list {
+  height: 280px;
+  padding: 10px 0px 8px 0px;
+}
+
+.putatoe-sidebar-services-list div {
+  display: flex;
+  color: white;
+  padding: 10px 0px 10px 22px;
+}
+
+.sidebarAnchorTags {
+  height: 50px;
+}
+
+.sidebar_item_image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}

@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Header from "./components/Header";
+import "./App.css";
+import Footer from "./components/Footer";
+import Sidebar from "./components/Sidebar";
+import Main from "./components/Main";
+import HumburgerMenu from "./components/HumburgerMenu";
+import Service from "./components/Service";
+import AllServices from "./components/AllServices";
+import FooterOption from "./components/FooterOption";
 
 function App() {
+  const [humburgeMenuShow, setHumburgeMenuShow] = useState(false);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header
+        setHumburgeMenuShow={setHumburgeMenuShow}
+        humburgeMenuShow={humburgeMenuShow}
+      />
+      <Sidebar />
+      {humburgeMenuShow ? <HumburgerMenu /> : ""}
+      <Main />
+      <Service />
+      <AllServices />
+      <FooterOption />
+      <Footer />
     </div>
   );
 }

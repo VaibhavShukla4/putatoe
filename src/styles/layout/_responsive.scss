@@ -1,0 +1,662 @@
+@media screen and (min-width: 1400px) {
+  .post_section {
+    padding: 0px 220px;
+  }
+}
+
+@media (min-width: 1300px) {
+  #desktop_chat {
+    padding: 180px;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 1299px) {
+  #desktop_chat {
+    padding: 120px;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .p-95 {
+    padding-left: 95px;
+  }
+
+  .p-60 {
+    padding-left: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  .post_section {
+    padding: 0px 120px;
+  }
+
+  .no-padding {
+    padding: 0px;
+  }
+}
+
+
+@media screen and (max-width: 1199px) {
+  .account_option_section {
+    padding: 10px
+  }
+
+  .home_cont,
+  .profile_options_section {
+    padding: 0px;
+  }
+
+  #feedbackreceivedconfessionMain {
+    margin-left: 0;
+  }
+
+  .post_section {
+    padding: 0px 40px;
+  }
+}
+
+@media screen and (min-width: 1126px) {
+  #recharge-container {
+    padding: 20px 45px 40px 45px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .dropdown_cart_image_section {
+    height: 30px;
+  }
+
+  .dropdown_cart_image_section img {
+    max-height: 30px;
+  }
+
+  .desktop-autoSuggest {
+    top: 45px;
+  }
+
+  .account-div {
+    padding-top: 0rem;
+  }
+
+  .humberger__open {
+    display: block;
+    color: #1c1c1c;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border: 1px solid #fff;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 14px;
+  }
+
+  .humberger_notifications {
+    display: block;
+    font-size: 23px;
+    height: 35px;
+    width: 35px;
+    line-height: 33px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    right: 110px;
+    top: 11px;
+  }
+
+  .humberger_cart {
+    display: block;
+    font-size: 29px;
+    height: 35px;
+    width: 35px;
+    line-height: 33px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    right: 65px;
+    top: 10px;
+  }
+
+  .humberger__menu__wrapper {
+    width: 300px;
+    background: #ffffff;
+    position: fixed;
+    left: -300px;
+    top: 0;
+    height: 100%;
+    overflow-y: auto;
+    z-index: 99;
+    padding: 30px;
+    padding-top: 50px;
+    opacity: 0;
+    display: block;
+    -webkit-transition: all, 0.6s;
+    -moz-transition: all, 0.6s;
+    -ms-transition: all, 0.6s;
+    -o-transition: all, 0.6s;
+    transition: all, 0.6s;
+  }
+
+  .humberger__menu__wrapper.show__humberger__menu__wrapper {
+    opacity: 1;
+    left: 0;
+    z-index: 9999;
+  }
+
+  .humberger__menu__overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    content: "";
+    z-index: 98;
+    visibility: hidden;
+    -webkit-transition: all, 0.6s;
+    -moz-transition: all, 0.6s;
+    -ms-transition: all, 0.6s;
+    -o-transition: all, 0.6s;
+    transition: all, 0.6s;
+  }
+
+  .humberger__menu__overlay.active {
+    visibility: visible;
+  }
+
+  .bottomnavbar-section .col-2 {
+    padding: 0px;
+  }
+
+  .category-name-grid {
+    font-weight: 700;
+    font-size: 12px;
+    color: black;
+  }
+
+  .finishmsg {
+    flex-direction: column;
+    text-align: center;
+    border-bottom: none;
+  }
+
+  .finishmsg:before {
+    border-bottom: 2px solid #00838f;
+    margin: 10px 200px 10px 200px;
+  }
+
+  .finishmsg:after {
+    border-bottom: 2px solid #00838f;
+    margin: 10px 200px 10px 200px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .customer_service {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #register-container {
+    padding: 0px 150px;
+  }
+
+  #popular_subservies {
+    padding: 0px 50px 0px 50px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #popular_subservies {
+    padding: 3px 10px 0px 10px;
+  }
+
+  #popular_subservies .owl-item {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #popular_subservies .owl-nav {
+    display: none;
+  }
+
+  .image,
+  .image__img {
+    height: 30vh;
+  }
+
+  .image__description {
+    font-size: 12px;
+  }
+
+  .image__overlay p,
+  .image__overlay button {
+    font-size: 12px;
+    margin-bottom: 3px;
+  }
+
+  .seller_features {
+    margin-top: 50px;
+  }
+
+  .myProfile-banner {
+    height: 90px;
+  }
+
+  .myProfile-logo {
+    margin-top: -60px;
+  }
+
+  .accOptionsInner i {
+    display: none;
+  }
+
+  .accOptionsInner .accHead {
+    font-size: 12px;
+  }
+
+  .accOptionsInner .accNote {
+    font-size: 10px;
+  }
+
+  .refnon {
+    border-right: none;
+  }
+
+  .mainrow .col-md-6 img {
+    margin-top: 0px;
+  }
+
+  .login-sidebar {
+    width: 360px;
+  }
+
+  .register-container .col-md-8 {
+    padding: 30px 50px;
+  }
+
+  .recharge-container .contact_form form {
+    width: 40%;
+  }
+
+  .seller_features .col-sm-2 div {
+    font-size: 12px;
+  }
+
+  .rating span {
+    font-size: 18px;
+  }
+
+  .regimage {
+    width: 40%;
+  }
+
+  .post_section {
+    padding: 0px 120px;
+  }
+
+  #desktop_chat {
+    padding: 90px;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 833px) {
+  .seller_features .col-sm-2 div {
+    font-size: 10px;
+  }
+
+  .rating span {
+    font-size: 14px;
+  }
+
+  .post_section {
+    padding: 0px 80px;
+  }
+
+  #desktop_chat {
+    padding: 0px;
+    padding-top: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-mission-heading {
+    font-size: 25px;
+  }
+
+  .about-goal-heading {
+    font-size: 25px;
+  }
+
+  .post_section {
+    padding: 0px 40px;
+  }
+
+  /* #showConfessions {
+        padding: 0px 150px;
+    } */
+  .accOptionsInner div {
+    margin-top: 5px;
+  }
+
+  .accOptionsInner img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .accOptionsInner .accHead {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .image,
+  .image__img {
+    height: 20vh;
+  }
+
+  .seller_features {
+    margin-top: 20px;
+  }
+
+  .rating {
+    margin-top: 0px;
+  }
+
+  .rating span {
+    font-size: 10px;
+  }
+
+  .seller_features .col-sm-2 div {
+    font-size: 8px;
+    margin-top: 2px;
+  }
+
+  .post_section {
+    padding: 0px;
+  }
+
+  /* #showConfessions {
+        padding: 0px 120px;
+    } */
+}
+
+@media only screen and (min-width: 576px) {
+  .referandearn-banner-section {
+    padding: 0 0 0 20px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+
+  .notification-sidebar,
+  .filter-sidebar {
+    top: 88px;
+  }
+
+  .searchbar-div {
+    padding: 10px 10px 0px 10px;
+  }
+
+  .desktop-searchBar input {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .category-hide {
+    display: none;
+  }
+
+  .main-banner-grid {
+    padding: 0px;
+  }
+
+  .main-banner-grid .col-lg-10 {
+    padding: 0px;
+  }
+
+  .popular_products_section {
+    padding: 5px 15px;
+  }
+
+  .popular_products_section h2 {
+    font-size: 14px !important;
+  }
+
+  .product_details h6 {
+    font-size: 12px;
+  }
+
+  .footer__widget:last-child {
+    padding-bottom: 75px;
+  }
+
+  .rating span {
+    font-size: 7px;
+  }
+
+  .post_section {
+    padding: 0px 80px;
+  }
+
+  /* #showConfessions {
+        padding: 0px 60px;
+    } */
+  #Wallet .wallet-balance-grid {
+    height: 135px;
+  }
+
+  #Wallet .wallet-balance-grid:last-child {
+    height: 180px;
+  }
+
+  #Wallet .wallet-balance-grid .col-sm-4 {
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .finishmsg:after {
+    border-bottom: 2px solid #00838f;
+    margin: 10px 100px 10px 100px;
+  }
+
+  .finishmsg:before {
+    border-bottom: 2px solid #00838f;
+    margin: 10px 100px 10px 100px;
+  }
+
+  .profile_options_section .row .col-sm-2 div {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .orders_table_head {
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width: 503px) {
+  .mfo-16 {
+    font-size: 16px;
+  }
+
+  .mfo-12 {
+    font-size: 12px;
+  }
+
+  .mfo-10 {
+    font-size: 10px;
+  }
+
+  .mw-55 {
+    width: 55%;
+  }
+
+  .post_section {
+    padding: 0px 40px;
+  }
+
+  .accOptionsInner img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .referralBlock {
+    text-align: center;
+  }
+
+  .profile_options_section .row .col-sm-2 div {
+    font-size: 10px;
+  }
+
+  .profile_banner img {
+    height: 70px;
+    width: 70px;
+    margin-top: -40px;
+  }
+
+  .profile_banner {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 425px) {
+  #edit_service_tabs .fo-12 {
+    font-size: 9px !important;
+    padding: 7px !important;
+  }
+
+  .orders_table_head {
+    font-size: 10px;
+  }
+
+  .orders_table td {
+    font-size: 10px;
+    padding: 2px;
+  }
+
+  .mobsize {
+    width: 90% !important
+  }
+
+  .filledcart-dropdown-section {
+    max-height: none
+  }
+
+  .filledcart-dropdown-section .card {
+    padding: 14px;
+  }
+
+  #recharge-container,
+  .recharge-container {
+    padding: 0px;
+  }
+
+  .recharge-container .col-lg-4 {
+    padding: 15px;
+  }
+
+  #recharge-plans .owl-item-inner {
+    font-size: 10px;
+  }
+
+  .plan-details-section,
+  .plan-details {
+    padding: 4px 0px;
+  }
+
+  .plan-details .card {
+    padding: 6px;
+  }
+
+  .plan-details-card .btn {
+    padding: 1px 12px;
+    font-size: 10px;
+    letter-spacing: .1em;
+  }
+
+  #feedbackGiven,
+  #feedbackReceived {
+    padding: 10px 5px;
+  }
+
+  .siteloader h1 {
+    font-size: 52px;
+  }
+
+  /* .about-mission-heading {
+        margin-right: 55px;
+    }
+    .about-mission-para {
+        border-bottom: 2px double #00838f;
+    }
+    .about-goal-heading {
+        margin-left: 55px;
+        margin-bottom: 30px;
+    } */
+  #notification-area {
+    width: 300px;
+  }
+
+  #notification-area .notification {
+    font-size: 14px;
+    padding: 7px 10px;
+  }
+
+  #register-container {
+    padding: 0px;
+  }
+
+  .register-container {
+    margin-top: 0px;
+  }
+
+  .register-container .col-md-8 {
+    padding: 30px 20px;
+  }
+
+  .register-container h3 {
+    font-size: 24px;
+  }
+
+  .post_section {
+    padding: 0px;
+  }
+
+  .post_section .col-xl-6 {
+    padding: 0px;
+  }
+
+  /* #showConfessions {
+        padding: 0px 5px;
+    } */
+  .profile_options_section .row .col-sm-3 div {
+    font-size: 12px;
+  }
+
+  .mow-100 {
+    width: 100% !important;
+  }
+}
+
+
+/*RESPONSIVE SIDE NAV*/
+
+@media screen and (max-width: 1200px) {
+  .mainContentWidthSet {
+    max-width: unset;
+    margin-left: unset;
+  }
+}
+
+
+/*RESPONSIVE SIDE NAV*/

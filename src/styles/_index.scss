@@ -1,0 +1,7 @@
+@import "globals";
+
+* {
+  margin: $global_margin;
+  padding: $global_padding;
+  box-sizing: border-box;
+}

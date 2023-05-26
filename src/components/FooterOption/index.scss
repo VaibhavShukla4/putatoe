@@ -1,0 +1,29 @@
+.mobileFooterOptions {
+  background: #fff;
+  box-shadow: 0 0 4px 0 rgb(0 0 0 / 12%);
+  width: 100%;
+  position: fixed;
+  z-index: 8;
+  bottom: 0;
+}
+
+.mobileFooterOptions .col-3 {
+  text-align: center;
+  padding: 8px 0 4px 0;
+}
+
+.bottomNavTab {
+  font-size: 11px;
+  color: #77787d;
+}
+
+.bottomNavTab img {
+  display: block;
+  margin: 0 auto;
+}
+
+.bottomNavTab span {
+  display: block;
+  margin-top: 4px;
+  font-family: montserrat-bold, sans-serif;
+}
